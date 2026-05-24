@@ -79,7 +79,7 @@
 	}
 
 	.section1 {
-		height: auto;
+
 
 		padding-top: 250px;
 		padding-bottom: 150px;
@@ -87,9 +87,7 @@
 		justify-content: center;
 	}
 
-	.hero__logo {
-		width: 230px;
-	}
+
 
 	.section2__title {
 		font-size: 29px;
@@ -114,7 +112,10 @@
 		font-size: 35px;
 	}
 
-	
+	.contact__container>h3 {
+    font-size: 60px;
+  
+}
 
 	.section4__text {
 		max-width: 350px;
