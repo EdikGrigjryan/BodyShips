@@ -32,8 +32,11 @@ body {
 	background-color: #1f2a32;
 	opacity: 0;
 	animation: bodyFade 3s forwards;
-}
 
+}
+main{
+	overflow: hidden;
+}
 @keyframes bodyFade {
 	to {
 		opacity: 1;

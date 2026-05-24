@@ -50,8 +50,7 @@
 	}
 
 	.hero__logo {
-		width: 300px;
-		height: auto;
+		display: none;
 	}
 
 	.section2__title {
