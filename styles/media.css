@@ -3,10 +3,12 @@
 	.header__container {
 		flex-direction: column;
 		gap: 77px;
+		
 	}
 
 	.section2__title {
 		font-size: 70px;
+		padding: 10px;
 	}
 
 	.cards {
@@ -54,7 +56,7 @@
 	}
 
 	.section2__title {
-		font-size: 35px;
+		font-size: 50px;
 	}
 
 	.section2__images {
@@ -90,7 +92,8 @@
 
 
 	.section2__title {
-		font-size: 29px;
+		font-size: 40px;
+		padding: 40px;
 	}
 
 	.section2__text {
