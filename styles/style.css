@@ -32,9 +32,8 @@ body {
 	background-color: #1f2a32;
 	opacity: 0;
 	animation: bodyFade 3s forwards;
-	
 }
-main{
+main {
 	overflow: hidden;
 }
 @keyframes bodyFade {
@@ -284,10 +283,10 @@ template {
 	justify-content: center;
 	transition: 1s;
 }
-.logo>img{
+.logo > img {
 	width: 550px;
 	height: 350px;
-		padding-top: 90px;
+	padding-top: 90px;
 }
 
 .logo__icon {
@@ -340,8 +339,19 @@ template {
 	width: 650px;
 	height: 450px;
 	object-fit: cover;
+	animation: floatUpDown 2.5s ease-in-out infinite;
 }
-
+@keyframes floatUpDown {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-35px); /* вверх */
+	}
+	100% {
+		transform: translateY(0); /* вниз */
+	}
+}
 /*Section2*/
 .section2 {
 	width: 100%;
@@ -531,8 +541,7 @@ template {
 	color: var(--accent-color2);
 }
 
-
-.contact__sec{
+.contact__sec {
 	width: 100%;
 	height: 80vh;
 	display: flex;
@@ -544,33 +553,32 @@ template {
 	background-size: cover;
 	background-attachment: fixed;
 }
-.contact__container{
+.contact__container {
 	width: 100%;
 	height: 100%;
 	display: flex;
-		align-items: center;
+	align-items: center;
 	justify-content: space-evenly;
 	flex-direction: column;
 	gap: 50px;
-
 }
-.contact__container>h3{
+.contact__container > h3 {
 	font-size: 75px;
 	color: #ffd479;
 }
-.contact__cards{
+.contact__cards {
 	display: flex;
 	gap: 150px;
-
 }
-.contact__card{
+.contact__card {
 	width: 300px;
 	height: 350px;
-background:  #1F2A32;
-background: linear-gradient(90deg, rgba(31, 42, 50, 1) 0%, rgba(255, 212, 121, 1) 100%, rgba(250, 250, 245, 1) 19%);
-	
--webkit-box-shadow: 12px 14px 15px 6px #000000; 
-box-shadow: 12px 14px 15px 6px #000000;border-radius: 30px;
+	background: #1f2a32;
+	background: linear-gradient(90deg, rgba(31, 42, 50, 1) 0%, rgba(255, 212, 121, 1) 100%, rgba(250, 250, 245, 1) 19%);
+
+	-webkit-box-shadow: 12px 14px 15px 6px #000000;
+	box-shadow: 12px 14px 15px 6px #000000;
+	border-radius: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -578,25 +586,25 @@ box-shadow: 12px 14px 15px 6px #000000;border-radius: 30px;
 	border: 3px solid #ffd479;
 	transition: 0.8s;
 }
-.contact__card>img{
+.contact__card > img {
 	width: 40px;
 	height: 40px;
 	object-fit: cover;
 }
-.contact__card>h4{
+.contact__card > h4 {
 	font-size: 27px;
 	color: #fff;
 	font-weight: 400;
 }
-.contact__card>p{
+.contact__card > p {
 	color: #fff;
 	font-size: 18px;
-	text-decoration: underline ;
+	text-decoration: underline;
 	font-weight: 300;
 }
-.contact__card:hover{
+.contact__card:hover {
 	transform: scale(1.2);
-box-shadow: none;
+	box-shadow: none;
 	transition: 1s;
 }
 /*Footer*/
